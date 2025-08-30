@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: #0d0d0d; /* dark background */
+  color: #fff;
+  overflow: hidden; /* keep floating name inside screen */
+}
+
+p {
+  font-size: 16px;
+  width: 90%;
+  margin: 20px auto;
+  text-align: justify; /* stretch text */
+  line-height: 1.8;
+}
+.floating-name {
+  position: absolute;
+  font-size: 4rem;
+  font-weight: bold;
+  color: #ff4d4d;
+  text-shadow: 0 0 15px #ff4d4d, 0 0 30px #ff0000;
+  opacity: 0.8;
+  pointer-events: none;
+}
+
